@@ -1,4 +1,4 @@
-# This is a copy of the realsense-ros package modified to be used for Vineland. The modifications were made in launch files. To inquire about the modifications to the launch files please contact Jose Rincon. The package is ready to clone and use in your catkin_ws
+This is a copy of the realsense-ros package modified to be used for Vineland. The modifications were made in launch files. To inquire about the modifications to the launch files please contact Jose Rincon. The package is ready to clone and use in your catkin_ws
 # ROS Wrapper for Intel&reg; RealSense&trade; Devices
 These are packages for using Intel RealSense cameras (D400 series SR300 camera and T265 Tracking Module) with ROS.
 
