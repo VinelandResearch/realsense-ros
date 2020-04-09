@@ -1,6 +1,6 @@
 This is a copy of the realsense-ros package modified to be used for Vineland. The modifications were made in launch files. To inquire about the modifications to the launch files please contact Jose Rincon. The package is ready to clone and use in your catkin_ws
 
-## Side Note: For some reason the newest realsense package was giving me an error with ros_launch files. if your roslaunch file cannot be found by ros then do: sudo apt install ros-melodic-rgbd-launch
+
 # ROS Wrapper for Intel&reg; RealSense&trade; Devices
 These are packages for using Intel RealSense cameras (D400 series SR300 camera and T265 Tracking Module) with ROS.
 
@@ -62,7 +62,8 @@ The following instructions are written for ROS Kinetic, on **Ubuntu 16.04** but 
   catkin_make install
   echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
   source ~/.bashrc
-  ```
+
+## Side Note: For some reason the newest realsense package was giving me an error with ros_launch files. if your roslaunch file cannot be found by ros then do: sudo apt install ros-melodic-rgbd-launch (Jose Rincon).
 
 ## Usage Instructions
 
